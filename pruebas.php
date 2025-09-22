@@ -17,9 +17,9 @@ function enviarAviso($asunto, $mensaje)
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'mail.fossilnatura.com';              // servidor SMTP
+        $mail->Host       = 'mail.google.com';              // servidor SMTP
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'd.rodriguez@fossilnatura.com';         // tu usuario de correo
+        $mail->Username   = 'd.rodriguez@gmail.com';         // tu usuario de correo
         $mail->Password   = 'asdasqwsg';             // contraseña de aplicación
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
